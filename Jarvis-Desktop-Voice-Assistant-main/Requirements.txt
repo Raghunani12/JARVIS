@@ -1,6 +1,6 @@
 1. Pyttsx3
 
-2. Speech Rrecognition
+2. SpeechRecognition
 
 3. Wikipedia
 
