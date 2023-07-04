@@ -8,7 +8,7 @@
 
 **🔸 Let's be honest, it's not as intelligent as in the movie, but it can do a lot of cool things and automate your daily tasks you do on your personal computers/laptops.**
 
-<img src="https://i.gifer.com/QVko.gif">AI </img>
+
 ## 📌Features
 
 It can do a lot of cool things, some of them being:
@@ -22,4 +22,5 @@ It can do a lot of cool things, some of them being:
 - Plays music
 - Take important note in text file
 - Can take screenshot and save it with custom filename
+- <img src="https://i.gifer.com/QVko.gif">AI </img>
 
