@@ -34,24 +34,24 @@ def date():
     print("The current date is", day, "/", month, "/", year)
 
 def wishme():
-    print("Welcome back Madam!")
-    speak("Welcome back Madam!")
+    print("Welcome back Sir!")
+    speak("Welcome back Sir!")
     
     hour = datetime.datetime.now().hour
     if 4 <= hour < 12:
-        speak("Good Morning Madam!")
-        print("Good Morning Madam!")
+        speak("Good Morning Sir!")
+        print("Good Morning Sir!")
     elif 12 <= hour < 16:
-        speak("Good Afternoon Madam!")
-        print("Good Afternoon Madam!")
+        speak("Good Afternoon Sir!")
+        print("Good Afternoon Sir!")
     elif 16 <= hour < 24:
-        speak("Good Evening Madam!")
-        print("Good Evening Madam!")
+        speak("Good Evening Sir!")
+        print("Good Evening Sir!")
     else:
-        speak("Good Night Madam, See You Tomorrow")
+        speak("Good Night Sir, See You Tomorrow")
 
-    speak("Jarvis at your service Madam, please tell me how may I help you.")
-    print("Jarvis at your service Madam, please tell me how may I help you.")
+    speak("Jarvis at your service Sir, please tell me how may I help you.")
+    print("Jarvis at your service Sir, please tell me how may I help you.")
 
 def screenshot():
     img = pyautogui.screenshot()
@@ -95,23 +95,23 @@ if __name__ == "__main__":
             print("I'm JARVIS created by Mr. RAGHU and I'm a desktop voice assistant.")
 
         elif "how are you" in query:
-            speak("I'm fine Madam, What about you?")
-            print("I'm fine Madam, What about you?")
+            speak("I'm fine Sir, What about you?")
+            print("I'm fine Sir, What about you?")
 
         elif "fine" in query or "good" in query:
-            speak("Glad to hear that, Madam!")
-            print("Glad to hear that, Madam!")
+            speak("Glad to hear that, Sir!")
+            print("Glad to hear that, Sir!")
 
         elif "wikipedia" in query:
             try:
-                speak("Ok wait Madam, I'm searching...")
+                speak("Ok wait Sir, I'm searching...")
                 query = query.replace("wikipedia", "")
                 result = wikipedia.summary(query, sentences=2)
                 print(result)
                 speak(result)
             except Exception as e:
                 print(e)
-                speak("Can't find this page Madam, please ask something else")
+                speak("Can't find this page Sir, please ask something else")
         
         elif "open youtube" in query:
             wb.open("https://www.youtube.com") 
@@ -165,6 +165,6 @@ if __name__ == "__main__":
             speak("I've taken a screenshot, please check it")
 
         elif "offline" in query:
-            speak("Goodbye Madam!")
-            print("Goodbye Madam!")
+            speak("Goodbye Sir!")
+            print("Goodbye Sir!")
             break
