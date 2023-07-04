@@ -1,4 +1,4 @@
 # JARVIS
 PERSONAL ASSISTANT 
 
-its just a virtual personal assistant for your personal computer
+its just a personal virtual assistant for your personal computer
